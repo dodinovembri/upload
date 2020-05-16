@@ -32,7 +32,7 @@ class HomeController extends Controller
         $nama_file = $file->getClientOriginalName();
         $ext = $file->getClientOriginalExtension();
 
-        $request->file->move('../../aa', $nama_file);
+        $request->file->move('../file', $nama_file);
 
         return redirect()->route('home')->with('alert-success','Data berhasil ditambahkan!');
     }

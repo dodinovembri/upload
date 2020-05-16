@@ -24,6 +24,8 @@
                         <br><br>
                         <input type="submit" value="Upload">                    
                     </form>
+                    <br>
+                    <a href="../file" target="_blank">File Content Here</a>
                 </div>
             </div>
         </div>
